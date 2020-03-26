@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Aplicação desenvolvida na Semana Omnistack 11.0 entre os dias 23/03/2020 a 27/03/2020 criada pela equipe Rocketseat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunopapait/SemanaOmnistack11.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunopapait/SemanaOmnistack11.0/issues"
+  },
+  "homepage": "https://github.com/brunopapait/SemanaOmnistack11.0#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
